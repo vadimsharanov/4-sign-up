@@ -2,34 +2,36 @@ body {
 }
 
 main {
-  display: inline-block;
-  width: 800px;
-  margin-top: 100px;
-  margin-left: calc(50% - 400px);
+    display: inline-block;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: calc(50% - 400px);
 }
 
 .left-column {
-  width: 40%;
-  float: left;
-  background-color: yellow;
-}
-
-.bottom-links {
-}
-.bottom-links > a {
-}
-.bottom-links > span {
+    float: left;
+    background-color: yellow;
+    width: 40%;
 }
 
 .main-title {
-  font-size: 60px;
+    font-size:60px;
 }
 
-.right-column {
-  width: 60%;
-  float: left;
-  background-color: pink;
+.bottom-links {
+    background-color: blue;
+}
+
+.right-column { 
+    float: left;
+    background-color: red;
+    width: 60%;
 }
 
 .close {
+    float: right;
 }
+
+.form {
+}
+
