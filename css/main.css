@@ -8,8 +8,30 @@ main {
     margin-left: calc(50% - 400px);
 }
 
-div { 
+.left-column {
     float: left;
     background-color: yellow;
-    width: 50%;
+    width: 40%;
 }
+
+.main-title {
+    font-size:60px;
+}
+
+.bottom-links {
+    background-color: blue;
+}
+
+.right-column { 
+    float: left;
+    background-color: red;
+    width: 60%;
+}
+
+.close {
+    float: right;
+}
+
+.form {
+}
+
