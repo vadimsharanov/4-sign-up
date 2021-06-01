@@ -4,45 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/form.css">
 </head>
-    <body>
-        <main>
-            <div class="left-column">
-                <h1>Sign up</h1>
-                <a class="policy" href="#">Privacy policy</a>
+<body>
+    <main>
+        <div class="left-column">
+            <h1  class="heading-text">Sign up</h1>
+            <div>
+                <a href="#" class="polizei">Privacy policy</a>
                 <span>&amp;</span>
-                <a class="terms" href="">tearms of service</a>
+                <a href="#" class="service">terms of service</a>
+        </div>   
+
             </div>
-            <div class="right-column">
-                <div class="close">x</div>
-                
-                <form class="form">
-                    <div class="form-row">
-                        <label for="">Username</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-row">
-                        <label for="">E-Mail</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-row">
-                        <label for="">Password</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-row">
-                        <label for="">Repeat password</label>
-                        <input type="text">
-                    </div>
-                    <div class="form-row">
-                        <button  type="submit">Get started</button>
-                        <span>or</span>
-                        <a href="#">Sign in</a>
-                    </div>
-                </form>
-            </div>
-        </main>
+        <div class="right-column">
+            <div class="close">x</div>
+            <form class="form">
+                <div class="form-row">
+                    <label for="Username">USERNAME</label>
+                    <input id="Username"  placeholder="Your username goes here" type="text">
+                </div>
+                <div class="form-row">
+                    <label for="email">E-MAIL</label>
+                    <input id="email" placeholder="enter your e-mail" type="email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">PASSWORD</label>
+                    <input id="pass" placeholder="Pasword" type="password">
+                </div>
+                <div class="form-row">
+                    <label for="re-pass">REPEAT PASSWORD</label>
+                    <input id="re-pass" placeholder="Password" type="password">
+                </div>
+                <div class="form-row">
+                    <button class="button" type="button">Get started</button>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
