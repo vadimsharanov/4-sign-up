@@ -8,6 +8,7 @@ body * {
 }
 
 body {
+    background-color: cornflowerblue;
 }
 
 main { 
@@ -38,9 +39,9 @@ main {
 
 .right-column {
     width: 60%;
-    float:left;
-    background-color:pink; 
+    float:left;  
     padding: 60px;
+    background-color: #fff;
 }
 
 .close {
