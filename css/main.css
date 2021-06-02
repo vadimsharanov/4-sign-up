@@ -16,6 +16,7 @@ main {
     width: 800px;
     margin-top: 60px;
     margin-left: calc(50% - 400px);
+    position: relative;
 }
 
 .left-column {
@@ -50,8 +51,20 @@ main {
     float:left;  
     padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 
 .close {
+    display: inline-block;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
   
