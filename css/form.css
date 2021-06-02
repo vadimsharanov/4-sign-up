@@ -22,6 +22,7 @@
     flex-direction: row;
     gap: 25px;
     line-height: 40px;
+    color: white;
 }
 
 .form-row > input {
