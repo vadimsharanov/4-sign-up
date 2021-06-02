@@ -14,28 +14,36 @@ body {
 main { 
     display: inline-block;
     width: 800px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: calc(50% - 400px);
 }
 
 .left-column {
     width: 40%;
     float: left;
-    background-color:gray;
+    background-color:violet;
+    padding: 40px;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: right  bottom;
+    color: white;
 }
 
 .heading-text {
-    padding: 0px;
+    font-size: 60px;
+    color: white;
 }
 
-.polizei {
+.bottom-text > a {
+    color: white;
+
 }
 
 .left-column > span {
+        text-decoration: none;
 }
 
-.service {
-}
 
 .right-column {
     width: 60%;
@@ -47,4 +55,3 @@ main {
 .close {
 }
   
-}
