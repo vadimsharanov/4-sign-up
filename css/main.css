@@ -53,8 +53,16 @@ main {
     color: white;
 }
 
+.bottom-text {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    left: 40px;
+}
+
 .bottom-text > a {
-    color: white;
+    color: white; 
+
 
 }
 
