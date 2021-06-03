@@ -12,7 +12,7 @@ body * {
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: right, bottom;
-    filter: blur(20px);
+    filter: blur(10px);
     height: 100vh;
     width: 100%;
 }
@@ -49,7 +49,7 @@ main {
 }
 
 .heading-text {
-    font-size: 60px;
+    font-size: 35px;
     color: white;
 }
 
@@ -68,6 +68,7 @@ main {
 
 .left-column > span {
         text-decoration: none;
+        color:black;
         
 }
 
@@ -93,4 +94,4 @@ main {
     top: 0;
 
 }
-  
+

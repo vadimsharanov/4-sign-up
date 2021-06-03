@@ -58,7 +58,8 @@
 .form-row > span {
     font-size: 18px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+    color: black;
    
 }
 
